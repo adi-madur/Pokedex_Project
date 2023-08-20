@@ -1,16 +1,14 @@
+import { Link } from "react-router-dom";
 import "./Pokemon.css";
 function Pokemon({ name, image, id }) {
-
-    console.log(name.toUpperCase());
-    // function convToUppercase(name){
-    // }
 
     return (
 
         <div className="pokemon">
-            <div>{id}</div>
-            <div className="pokemon-name" > { name.toUpperCase() } </div>
-            <div><img className="pokemon-image" src={image} /></div>
+            <Link to={`pokemon/${id}`} >
+                <div className="pokemon-name" > {name.toUpperCase()} </div>
+                <div><img className="pokemon-image" src={image} /></div>
+            </Link>
         </div>
     )
 }

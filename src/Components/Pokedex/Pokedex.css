@@ -3,9 +3,3 @@
     flex-direction: column;
 }
 
-#pokedex-heading {
-    margin: 0 auto;
-    letter-spacing: 10px;
-    font-size: 70px;
-    font-family: 'Tilt Prism', cursive;
-}

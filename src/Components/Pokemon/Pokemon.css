@@ -1,6 +1,5 @@
 .pokemon{
     padding: 10px;
-
     margin-top: 2rem;
     flex-basis: 20%;
     height: 200px;
@@ -24,4 +23,9 @@
 .pokemon:hover{
     background-color: #ffe4c4;
     border-radius: 30px;
+}
+
+*{
+    text-decoration: none;
+    color: #111111;
 }

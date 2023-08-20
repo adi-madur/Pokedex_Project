@@ -1,0 +1,37 @@
+.pokemon-details-name{
+    font-size: xx-large;
+    color: #111111;
+    margin-top: 1rem;
+}
+
+.pokemon-details-name > span {
+    letter-spacing: 0.3rem;
+}
+
+img{
+    margin: 5rem 0;
+}
+
+.pokemon-details-types{
+    display: flex;
+    margin-top: 2rem;
+    gap: 3rem;
+    font-size: x-large;
+}
+
+.pokemon-details-types > div{
+    color: #111111;
+    border: 1px solid grey;
+    border-radius: 30px;
+    padding: .5rem 1.5rem;
+}
+
+.pokemon-details-types > div:hover{
+    background-color: #ebc391;
+    cursor: pointer;
+}
+
+.pokemon-details-wrapper{
+    display: flex;
+    flex-direction: column;
+}

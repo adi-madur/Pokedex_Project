@@ -39,8 +39,6 @@ function PokemonList() {
 
         });
 
-
-        console.log(pokeListResult);
         setPokemonList(pokeListResult);
         setIsLoading(false);
     }
@@ -56,7 +54,7 @@ function PokemonList() {
             <div className="pokemon-list-wrapper">
                 <div className="pokemon-wrapper" >
                     {(isLoading) ? "Loading..." :
-                        pokemonList.map((p) => <Pokemon name={p.name} image={p.image} key={p.id} />)
+                        pokemonList.map((p) => <Pokemon name={p.name} image={p.image} key={p.id} id={p.id} />)
                     }
                 </div>
                 <div className="controls">
